@@ -9,7 +9,7 @@ Console.WriteLine("Введите трёхзначное число: ");
 int num = int.Parse(Console.ReadLine());                                     
 int FirstDigit = num/100;
 int SecondDigit = (num - FirstDigit * 100) /10; 
-int ThirdDigit = (num - FirstDigit * 100 - SecondDigit * 10); // примр для себя,можно было это не писать
+int ThirdDigit = (num - FirstDigit * 100 - SecondDigit * 10); // или num/10%; примр для себя,можно было это не писать
 if (num > 99 && num < 1000)
 {                                  
 Console.WriteLine($"Второе число: {SecondDigit}");
