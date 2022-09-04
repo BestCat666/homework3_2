@@ -7,8 +7,6 @@
 Console.WriteLine("Введите трёхзначное число: ");
 
 int num = int.Parse(Console.ReadLine());                                     
-int FirstDigit = num/100;
-int SecondDigit = (num - FirstDigit * 100) /10; 
 int ThirdDigit = num % 10;
 if (num > 99 && num < 1000)
 {                                  
